@@ -201,7 +201,7 @@ public class DescendEncoder extends Encoder {
 
     public int getExp() {
       long y = Double.doubleToRawLongBits(this.value);
-      long exp = (y >>> 52) - 1023 + Long.numberOfTrailingZeros(y) - 52;
+      long exp = (y >>> 52) - 1023 + Long.numberOfTrailingZeros(y | 0xfff0000000000000L) - 52;
       return (int) exp;
     }
   }
