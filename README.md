@@ -11,7 +11,7 @@ To simplify the reproducing, the minimum artifact bypasses the IoTDB server, wri
 
 ### Example Invocation
 
-1. [Download](https://cloud.tsinghua.edu.cn/f/8dfe9353af574e66b6ff/) the datasets and put all CSV files into the directory `artifact/dataset`;
+1. [Download](https://public-files-wanghy.oss-cn-hangzhou.aliyuncs.com/FREQ_Dataset.zip) the datasets and put all CSV files into the directory `artifact/dataset`;
 
 2. Install the dependencies into local repository: 
 
